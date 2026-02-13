@@ -1,23 +1,25 @@
-# Housing Price Prediction using ML Pipeline
+# Housing Price Prediction using Machine Learning
 
-## Project Description
-Built a complete ML pipeline using:
+## 📌 Project Overview
+This project predicts house prices using an end-to-end ML pipeline.
+
+## 🚀 Tech Stack
 - Pandas
+- NumPy
 - Scikit-learn
-- RandomForest
-- ColumnTransformer
-- Pipeline
+- RandomForestRegressor
+- Pipeline & ColumnTransformer
 
-## Features
-✔ Data preprocessing
-✔ Stratified sampling
-✔ Feature scaling
-✔ One-hot encoding
-✔ Model saving using joblib
+## ⚙ Features
+✔ Data preprocessing  
+✔ Stratified sampling  
+✔ Feature scaling  
+✔ One-hot encoding  
+✔ Model persistence using joblib  
 
-## How to Run
-pip install -r requirements.txt
-python train.py
+## ▶ How to Run
+pip install -r requirements.txt  
+python train.py  
 
-## Output
-Generates output.csv with predictions
+## 📊 Output
+Generates output.csv with predicted house prices
